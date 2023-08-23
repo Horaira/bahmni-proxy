@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - snomed-master
-      - BS-178
     tags:
         - '[0-9]+.[0-9]+.[0-9]+'
 
