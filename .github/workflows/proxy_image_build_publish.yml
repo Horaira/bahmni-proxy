@@ -34,5 +34,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           no-cache: true
           push: true
-          tags: bahmni/proxy:snomed-${{env.ARTIFACT_VERSION}},bahmni/proxy:snomed-atest
+          tags: bahmni/proxy:snomed-${{env.ARTIFACT_VERSION}},bahmni/proxy:snomed-latest
   
