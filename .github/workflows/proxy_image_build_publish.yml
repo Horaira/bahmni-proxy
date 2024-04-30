@@ -33,7 +33,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           no-cache: true
           push: true
-          tags: indiclinic/proxy:latest
+          tags: indiclinic/proxy:CORS-Issue
   trigger:
       name: Trigger auto deploy 
       runs-on: ubuntu-latest
